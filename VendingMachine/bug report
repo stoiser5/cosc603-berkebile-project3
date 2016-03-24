@@ -1,0 +1,16 @@
+Bug report for the VendingMachine Project
+
+VendingMachineItem.java:
+
+1) Empty Strings are accepted as item names
+   Fix: a VendingMachineException is thrown in the constructor when the name
+        is an empty string 
+
+2) Null Strings are accepted as item names
+   Fix: a VendingMachineException is thrown in the constructor when the name
+        is null 
+
+        
+VendingMachine.java:
+
+no bugs found
